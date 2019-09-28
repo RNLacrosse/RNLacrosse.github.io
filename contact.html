@@ -95,29 +95,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</ul>
 				</div>
 				<div class="col-md-8 contact-w3ls">
-					<form action="#" method="post">
+                
+                    
+					<form method="post" action="http://www.formular-chef.de/fc.cgi" enctype="multipart/form-data">
+                        <input type="hidden" name="empfaenger" value="info@mannheim-lacrosse.de"/>
 					<div class="col-md-5 col-sm-5 contact-left agileits-w3layouts">
 					
 						<div class="f-control"> 
 							<label class="header1">Full Name <span>:</span></label>
-							<input type="text" name="First Name" placeholder="Name" required="">
+							<input type="text" name="Name" id="contact-name" placeholder="Your Name" required="">
 						</div>
 						
 						<div class="f-control"> 
 							<label class="header1">Email <span>:</span></label>
-							<input type="email" class="email" name="Email" placeholder="Email" required="">
+							<input type="email" class="email" name="Your Email" id="contact-email" placeholder="Your Email" required="">
 						</div>
 						
 						<div class="f-control">
 							<label class="header1">Mobile Number <span>:</span></label>
-							<input type="text" name="Number" placeholder="Mobile Number" required="">
+							<input type="text" name="Number" placeholder="Mobile Number (optional)">
 						</div>	
 						<!-- <input type="text" class="email" name="Last Name" placeholder="Last Name" required=""> -->
 					</div> 
 					<div class="col-md-7 col-sm-7 contact-right agileits-w3layouts">
 						
 							<label class="header1">Message <span>:</span></label>
-							<textarea name="Message" placeholder="Message" required=""></textarea>
+							<textarea name="message" id="contact-message" placeholder="Message" rows="4" required=""></textarea>
 						
 						
 					</div>

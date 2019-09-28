@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
 	margin:0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Athletic';
 	background: #fff;  
 }
 body a{
@@ -35,7 +35,7 @@ body a:hover,body a:focus{
 } 
 /*-- banner --*/ 
 .w3ls-banner{ 
-	background:url(../images/malax_nacht_2.jpg)no-repeat center 0px;
+	background:url(../images/header_test.jpg)no-repeat center 0px;
 	-webkit-background-size:cover;
 	-moz-background-size:cover; 
 	background-size:cover;
@@ -435,7 +435,7 @@ ul.about-list li {
     color: #191826;
 }
 .about2 {
-    background: url(../images/g2.jpg) no-repeat;
+    background: url(../images/coaches.png) no-repeat;
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
@@ -528,7 +528,7 @@ ul.about-list li {
 /*-- //pricing --*/
 /*-- feedback --*/ 
 .feedback {
-  background: url(../images/2.jpg) no-repeat center fixed;
+  background: url(../images/malax_nacht_2.jpg) no-repeat center fixed;
   background-size: cover;
   padding:5em 0;
 }
@@ -599,7 +599,7 @@ h3.w3l_header.ggg,p.hhh {
 	padding:5em 0;
 }	
 .carrer-left {
-    background: url(../images/g1.jpg) no-repeat;
+    background: url(../images/indian_lacrosse.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     min-height:418px;
