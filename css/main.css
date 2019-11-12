@@ -1,0 +1,249 @@
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+}
+
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+@font-face{
+    font-family: 'Athletic';
+    src: url(../fonts/Athletic.TTF);
+    }
+
+h1, h2, h3, h4, h5{
+    font-family: Athletic;
+    position:relative
+}
+
+.orange-bg {
+    background-color: #ED6E25;
+}
+
+.orange {
+    color: #ED6E25;
+}
+
+.grey-bg {
+    background-color: #474040;
+    color: white;
+}
+
+.grey {
+    color: #474040;
+}
+
+.underline-orange-short:after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 1px;
+    bottom: 0;
+    left: 10%;
+    border-bottom: 2px solid #ED6E25;
+}
+
+.underline-orange-long:after{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 1px;
+    bottom: 0;
+    left: -10%;
+    border-bottom: 2px solid #ED6E25;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.white {
+    color: white;
+}
+
+.caroussel-picture {
+    height: 8rem;
+    width: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.caroussel-picture img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+
+.caroussel-picture-team {
+    height: 8rem;
+    width: 8rem;
+    float: right;
+}
+
+.caroussel-picture-team img {
+    height: inherit;
+    width: inherit;
+    display: block;
+    object-fit: cover;
+
+}
+
+.caroussel h5{
+    margin-bottom: -0.4rem;
+}
+
+.card-text {
+    margin-left: -1.2rem;
+    overflow: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.team {
+    padding-top: 1.6rem;
+
+}
+
+.team .card {
+    border: none;
+}
+
+.content {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.kontakt {
+    padding-top: 2rem;
+    padding-bottom: 0;
+}
+
+section {
+    padding-bottom: 3rem;
+}
+
+.plakat img {
+    max-height: 100%;
+    max-width: 110%;
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    margin: auto;
+    overflow: auto;
+    object-fit: cover;
+}
+
+
+
+.navbar-brand img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 90px;
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-top: 10px
+}
+
+.navbar-collapse{
+    padding-left: 70px
+}
+
+img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px 10px 5px 10px;
+    color: white;
+    font-family: Athletic
+}
+
+.formular {
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.google iframe{
+    width: 100%;
+    border: none;
+    height: 450px;
+}
+
+textarea::-webkit-input-placeholder,
+::-webkit-input-placeholder {
+    color: white;
+}
+
+textarea:-moz-placeholder,
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: white;
+}
+
+textarea::-moz-placeholder,
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+}
+
+textarea:-ms-input-placeholder,
+:-ms-input-placeholder {
+    color: white;
+}
+
+textarea::placeholder,
+::placeholder {
+    color: white;
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+        -ms-flex: 1;
+        flex: 1;
+    }
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
