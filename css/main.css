@@ -172,6 +172,11 @@ img {
     object-fit: cover;
 }
 
+.jugend-jubel{
+    height: 18rem;
+    width: 18rem;
+}
+
 .button {
     display: inline-block;
     cursor: pointer;

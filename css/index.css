@@ -1,13 +1,8 @@
-.warum-lacrosse .row{
-    padding: 0.5rem;
-}
-
-
 .circle {
     font-size: 1.5em;
 }
 
-.warum-lacrosse .container{
+.partner .container{
     padding-top: 1rem;
     padding-bottom: 3rem;
 }
@@ -17,9 +12,29 @@
     width: 8rem;
     margin-left: auto;
     margin-right: auto;
+}
 
+.partner .row{
+    padding: 0.5rem;
 }
 
 .header{
     width: 100%
+}
+
+.round-symbol{
+    width: 5rem;
+    height: 5rem;
+    background: #E6E7ED;
+    border-radius: 50%!important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.center-block {
+    float:none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
