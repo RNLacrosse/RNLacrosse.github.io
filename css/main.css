@@ -252,3 +252,23 @@ textarea::placeholder,
 .overflow-hidden {
     overflow: hidden;
 }
+
+.footer a{
+    text-decoration: none;
+    background-color: none;
+}
+
+.triangle{
+    background-color: #474040;
+    background-image: url(../images/Dreieck.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-bottom: 18%;    
+    text-align: center;
+}
+
+.triangle .row{
+    padding-top: 3rem;
+}
